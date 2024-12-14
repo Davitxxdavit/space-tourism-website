@@ -1,6 +1,6 @@
 import React from 'react';
 import './Commander.css';
-import commanderimg from '../assets/crew/image-douglas-hurley.png';
+
 const Commander = () => {
   return (
     <div className='commander'>
