@@ -1,0 +1,206 @@
+
+.moon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.content-moon{
+    width: 445px;
+}
+
+.content-moon h2{
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 5.5rem; */
+    font-size: 96px;
+
+    margin: 40px 0 0;
+    color: white;
+    letter-spacing: 10px;
+}
+
+.content-moon p{
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D0D6F9;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
+
+
+.content-moon hr{
+    color: #FFFFFF;
+    opacity: 0.2;
+    border-radius: 10%;
+    margin: 30px 0;
+    width: 95%;
+}
+
+.exp span{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D0D6F9;
+}
+
+.exp p{
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    color: white;
+}
+
+.exp {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .moon{
+    
+        gap: 70px;
+    }
+    
+    .content-moon{
+        width: 345px;
+    }
+
+    .destination-item-img{
+        height: 345px;
+        width: 345px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .moon{
+    
+        gap: 55px;
+    }
+
+    .content-moon{
+        /* width: 70%; */
+    }
+
+    .content-moon h2{
+        font-size: 76px;
+        color: white;
+        letter-spacing: 10px;
+    }
+}
+
+
+/* tablet */
+
+
+
+@media only screen and (max-width: 820px) {
+    .moon{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex;
+        align-items: center;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .destination-item-img{
+        height: 245px;
+        width: 245px;
+    }
+
+    .exp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .content-moon h2{
+        font-size: 66px;
+        letter-spacing: 9px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    .exp{
+        border-top: 1px solid rgba(255, 255, 255, 0.303);
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-top: 24px;
+    }
+    
+    .destination-item-img{
+        margin-top: 20px;
+        height: 150px;
+        width: 150px;
+    }
+
+    .moon{
+        padding: 0;
+    }
+
+    .content-moon h2{
+        font-size: 56px;
+   
+    }
+    .content-moon p{
+        line-height: 1.8rem;
+        font-size: 15px;
+    }
+
+    .content-moon{
+        width: 80%;
+    }
+    .exp span{
+        font-size: 14px;
+    }
+    
+    .exp p{   
+        font-size: 28px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .content-moon h2{
+        font-size: 46px;
+   
+    }
+    .content-moon p{
+        line-height: 1.8rem;
+        font-size: 13px;
+    }
+
+    .content-moon{
+        width: 80%;
+    }
+
+
+    .exp span{
+        font-size: 14px;
+    }
+    
+    .exp p{   
+        font-size: 28px;
+    }
+    
+}

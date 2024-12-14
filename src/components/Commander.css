@@ -1,0 +1,191 @@
+.commander{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+
+.crew-item-content{
+    width: 539px;
+}
+
+.crew-item-img{
+    margin-top: 50px;
+    background-image: url('../assets/crew/image-douglas-hurley.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 636px;
+    width: 485px;
+    -webkit-box-shadow: inset 0px -100px 43px -50px rgba(11, 14, 23, 1);
+-moz-box-shadow: inset 0px -100px 43px -50px rgba(11, 14, 23, 1);
+box-shadow: inset 0px -100px 43px -50px rgba(11, 14, 23, 1);
+}
+
+.crew-item-content span{
+    font-size: 32px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.crew-item-content h2{
+    text-transform: uppercase;
+    font-size: 56px;
+    color: #FFFFFF;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px 0;
+}
+.crew-item-content p{
+    font-size: 18px;
+    color: #D0D6F9;
+    font-family: "Bellefair", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mark-img{
+    background-image: url('../assets/crew/image-mark-shuttleworth.png');
+}
+
+.pilot-img{
+    background-image: url('../assets/crew/image-victor-glover.png');
+    background-size: contain;
+    background-position: bottom;
+}
+
+.engineer-img{
+    background-image: url('../assets/crew/image-anousheh-ansari.png');
+    background-size: contain;
+    background-position: bottom;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .crew-item-content{
+        width: 450px;
+    }
+    
+    .crew-item-img{
+        margin-top: 50px;
+        height: 536px;
+        width: 385px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .crew-item-content{
+        width: 420px;
+    }
+    
+    .crew-item-img{
+        margin-top: 50px;
+        height: 516px;
+        width: 355px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+
+    .crew-item-content{
+        width: 420px;
+    }
+    
+    .crew-item-img{
+        margin-top: 80px;
+        height: 500px;
+        width: 339px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+.commander{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.crew-item-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.crew-item-content h2{
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.crew-item-content span{
+    font-size: 22px;
+}
+
+.crew-item-img{
+    margin-top: 0px;
+    height: 450px;
+    width: 320px;
+    position: relative;
+    bottom: -80px;
+    left: 5%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .crew-item-content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .crew-item-img{
+        height: 340px;
+        width: 271px;
+        /* left: calc((100% - 271px) / 2); */
+        right: calc((100% - 280px) / 2);
+        margin: 0;
+        padding: 0;
+    }
+    .crew-item-content h2{
+        font-size: 24px;
+        margin: 8px 0 24px;
+    }
+
+    .crew-item-content span{
+        font-size: 18px;
+    }
+
+    .crew-item-content p{
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 270px) {
+    .crew-item-img{
+        height: 250px;
+        width: 190px;
+        right: calc((100% - 180px) / 2);
+    }
+
+}
+
+
+
+
+

@@ -1,0 +1,132 @@
+.launch{
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+    gap: 32px;
+}
+
+
+.rocket{
+    height: 608px;
+    width: 600px;
+    background-image: url('../assets/technology/image-launch-vehicle-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tech-item-content{
+    width: 491px;
+}
+
+.tech-item-content p{
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.tech-item-content span{
+    font-size: 32px;
+}
+
+.sapaceport{
+    background-image: url('../assets/technology/image-spaceport-portrait.jpg');
+}
+
+.capsule{
+    background-image: url('../assets/technology/image-space-capsule-portrait.jpg');
+}
+
+
+
+
+
+@media only screen and (max-width: 1280px) {
+    .rocket{
+        height: 458px;
+        width: 450px;
+        background-image: url('../assets/technology/image-launch-vehicle-portrait.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sapaceport{
+        background-image: url('../assets/technology/image-spaceport-portrait.jpg');
+    }
+
+    .capsule{
+        background-image: url('../assets/technology/image-space-capsule-portrait.jpg');
+    }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+   
+.tech-item-content p{
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.tech-item-content span{
+    font-size: 22px;
+}
+
+.tech-item-content h2{
+    font-size: 36px;
+}
+
+.tech-item-content{
+    width: 391px;
+}
+
+.rocket{
+    height: 358px;
+    width: 350px;
+}
+
+.launch{
+    gap: 12px;
+}
+
+}
+
+@media only screen and (max-width: 820px) {
+    .rocket{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        width: 100%;
+        height: 357px;
+        background-image: url('../assets/technology/image-launch-vehicle-landscape.jpg');
+    }
+
+    
+    .sapaceport{
+        background-image: url('../assets/technology/image-spaceport-portrait.jpg');
+    }
+
+    .capsule{
+        background-image: url('../assets/technology/image-space-capsule-portrait.jpg');
+    }
+
+    .launch{
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tech-item-content h2{
+        font-size: 24px;
+    }
+
+    .tech-item-content span{
+        font-size: 18px;
+    }
+
+    .tech-item-content{
+        width: 90%;
+    }
+}

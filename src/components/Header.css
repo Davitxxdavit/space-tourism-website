@@ -1,0 +1,178 @@
+.header{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #7272726f; */
+    z-index: 2;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    height: 96px;
+    padding-top: 40px;
+}
+
+.off{
+    display: none;
+}
+
+.burgerimg{
+    display: none;
+}
+
+hr{
+    width: 40%;
+    height: 0.4px;
+    margin-left: 100px;
+    opacity: 0.4;
+    z-index: 4;
+}
+
+.nav-links{
+    width: 690px;
+    background-color: rgba(255, 255, 255, 0.092);
+    text-transform: uppercase;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    /* height: 96px; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 48px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 64px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 0;
+    font-size: 19px;
+}
+
+.nav-links a:hover{
+     border-bottom: 3px solid rgba(255, 255, 255, 0.302);
+     padding: 33px 0 31px;
+}
+
+.close-btn{
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+   hr{
+    width: 25%;
+   }
+  }
+
+  @media only screen and (max-width: 968px) {
+    hr{
+     width: 18%;
+    }
+   }
+
+   @media only screen and (max-width: 922px) {
+    hr{
+     display: none;
+    }
+   }
+
+   @media only screen and (max-width: 820px) {
+    .nav-links{
+        width: 77%;
+        padding-right: 30px;
+        gap: 30px;
+    }
+
+    .header{
+       
+       
+        height: 96px;
+        padding-top: 0;
+    }
+
+   
+   }
+
+   @media only screen and (max-width: 555px) {
+
+    .nav-links a{
+        font-size: 15px;
+    }
+
+    .nav-links{
+        padding-right: 15px;
+        gap: 15px;
+    }
+   }
+
+   
+   @media only screen and (max-width: 480px) {
+    
+    .logoimgs{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .nav-links{
+        display: none;
+    }
+
+    .close-btn{
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: 24px;
+    }
+
+    .nav-links-mobile{
+        
+        padding-top: 133px;
+        width: 70%;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.092);
+        text-transform: uppercase;
+        backdrop-filter: blur(10px);
+        font-family: "Barlow Condensed", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 32px;
+       
+    }
+   
+
+
+    .nav-links-mobile a{
+    
+        margin-left: 32px;
+        color: white;
+        text-decoration: none;
+        font-size: 19px;
+        width: -webkit-calc(100% - 35px);
+    }
+
+    .burgerimg{
+        display: block;
+        margin-right: 20px;
+        
+    }
+
+
+
+   }
+
+
+ 
+  
